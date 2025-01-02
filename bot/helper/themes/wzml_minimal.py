@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 class WZMLStyle:
-class WZMLStyle:
     # ----------------------
     # Main Buttons and Links
     ST_BN1_NAME = '⚡️ Lightning Hub ⚡️'
