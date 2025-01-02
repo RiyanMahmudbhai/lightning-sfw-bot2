@@ -7,7 +7,6 @@ from bot.helper.themes import wzml_minimal
 
 AVL_THEMES = {
     "minimal": wzml_minimal,
-    "emoji": wzml_emoji,
     "futuristic": wzml_futuristic,
     "lightning": wzml_lightning  # Add this line
 }
