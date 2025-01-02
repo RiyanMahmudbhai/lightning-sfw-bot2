@@ -29,7 +29,7 @@ class WZMLStyle:
     LOGGED_IN = '<b>Welcome Back to the Lightning Hub ⚡</b>'
     INVALID_PASS = '<b>Invalid Password!</b>\n\nKindly put the correct Password .'
     PASS_LOGGED = '<b>Access Granted! 🌩 Welcome to the Lightning Experience!</b>'
-    LOGIN_USED = '<b>Login Command:</b>
+    LOGIN_USED = '<b>Bot Login Usage :</b>\n\n<code>/cmd [password]</code>'
     # ---------------------
     # async def log(_, message): ---> __main__.py
     LOG_DISPLAY_BT = '📑 Log Display'
