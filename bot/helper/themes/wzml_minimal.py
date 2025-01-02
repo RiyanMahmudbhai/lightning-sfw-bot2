@@ -1,47 +1,52 @@
 #!/usr/bin/env python3
 class WZMLStyle:
+class WZMLStyle:
     # ----------------------
-    # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Repo'
+    # Main Buttons and Links
+    ST_BN1_NAME = '⚡️ Lightning Hub ⚡️'
     ST_BN1_URL = 'https://www.github.com/weebzone/WZML-X'
-    ST_BN2_NAME = 'Updates'
-    ST_BN2_URL = 'https://t.me/WZML_X'
-    ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
-<b>Type {help_command} to get a list of available commands</b>'''
-    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
-    ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own WZML-X Mirror-Leech bot</i>'''
-    OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
-    USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
-    LOGGED_PASSWORD = '''<b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i>'''
-    ACTIVATE_BUTTON = 'Activate Temporary Token'
-    TOKEN_MSG = '''<b><u>Generated Temporary Login Token!</u></b>
-<b>Temp Token:</b> <code>{token}</code>
-<b>Validity:</b> {validity}'''
+    ST_BN2_NAME = '⚡ Real-time Updates ⚡'
+    ST_BN2_URL = 'https://t.me/asifalex2'
+    ST_MSG = '''<i>⚡ Welcome to the ultimate Lightning experience!</i>
+<b>Type {help_command} to explore powerful commands 🌩</b>'''
+    ST_BOTPM = '''⚡ <i>Your lightning bot is ready to strike! Start using it now.</i> 🌩'''
+    ST_UNAUTH = '''⛔ <i>Unauthorized! Deploy your own lightning bot to harness the storm.</i> ⚡'''
+    OWN_TOKEN_GENERATE = '''⚡ <b>Invalid Temporary Token!</b>
+<i>Generate your own to spark your journey!</i>'''
+    USED_TOKEN = '''🌩 <b>Token Already Used!</b>
+<i>Refresh for a new thunderous access!</i>'''
+    LOGGED_PASSWORD = '''⚡ <b>Access Already Granted!</b>
+<i>Welcome back to the storm!</i> 🌩'''
+    ACTIVATE_BUTTON = '⚡ Activate Token ⚡'
+    TOKEN_MSG = '''⚡ <b><u>Lightning Access Token</u></b>
+<b>Token:</b> <code>{token}</code>
+<b>Valid For:</b> {validity} 🌩'''
     # ---------------------
     # async def token_callback(_, query): ---> __main__.py
     ACTIVATED = '✅️ Activated ✅'
     # ---------------------
     # async def login(_, message): --> __main__.py
-    LOGGED_IN = '<b>Already Bot Login In!</b>'
-    INVALID_PASS = '<b>Invalid Password!</b>\n\nKindly put the correct Password .'
-    PASS_LOGGED = '<b>Bot Permanent Login Successfully!</b>'
-    LOGIN_USED = '<b>Bot Login Usage :</b>\n\n<code>/cmd [password]</code>'
+    LOGGED_IN = '<b>Welcome Back to the Lightning Hub ⚡</b>'
+    INVALID_PASS = '<b>Incorrect Password!</b>
+<i>Try again with the correct spark!</i>'
+    PASS_LOGGED = '<b>Access Granted! 🌩 Welcome to the Lightning Experience!</b>'
+    LOGIN_USED = '<b>Login Command:</b>
     # ---------------------
     # async def log(_, message): ---> __main__.py
     LOG_DISPLAY_BT = '📑 Log Display'
     WEB_PASTE_BT = '📨 Web Paste (SB)'
     # ---------------------
     # async def bot_help(client, message): ---> __main__.py
-    BASIC_BT = 'Basic'
-    USER_BT = 'Users'
-    MICS_BT = 'Mics'
-    O_S_BT = 'Owner & Sudos'
-    CLOSE_BT = 'Close'
+    BASIC_BT = '⚡ Basics'
+    USER_BT = '⚡ Users'
+    MICS_BT = '⚡ Miscellaneous'
+    O_S_BT = '⚡ Admin Tools'
+    CLOSE_BT = '⚡ Close Menu'
     HELP_HEADER = "㊂ <b><i>Help Guide Menu!</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
 
     # async def stats(client, message):
-    BOT_STATS = '''⌬ <b><i>BOT STATISTICS :</i></b>
-┖ <b>Bot Uptime :</b> {bot_uptime}
+    BOT_STATS = '''🌩 <b><i>Lightning Bot Stats:</i></b>
+┖ <b>Uptime:</b> {bot_uptime}
 
 ┎ <b><i>RAM ( MEMORY ) :</i></b>
 ┃ {ram_bar} {ram}%
